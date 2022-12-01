@@ -1152,7 +1152,7 @@ $(document).ready(function() {
     wcGetLink.click(function() {
         0 == request && (gotolinkcountdown(), request = !0), $("html, body").animate({
             scrollTop: eval(gotolink.offset().top - 50)
-        }, 500)
+        }, 0)
     }), gotolink.on("click", function() {
         var t = aesCrypto.decrypt(convertstr($.urlParam("o")), convertstr("root"));
         window.location.href = t
