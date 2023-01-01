@@ -1132,7 +1132,7 @@ $(document).ready(function() {
         timer = $("#timer");
 
     function gotolinkcountdown() {
-        var t = 3;
+        var t = 5;
         gotolink.removeClass("hidden");
         var e = setInterval(function() {
             var r = t -= 1;
